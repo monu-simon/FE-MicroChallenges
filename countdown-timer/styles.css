@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/landscape.jpg);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    text-align: center;
+}
+
+.item span {
+    font-size: 1rem;
+}
