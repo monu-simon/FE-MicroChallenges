@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    margin: 2em;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.submitBtns {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.btn {
+    margin: 2em;
+    height: 50px;
+    color: white;
+    align-content: center;
+    width: 50%;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: steelblue;
+    position: relative;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin: 1em;
+    font-size: large;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.loginForm {
+    display: none;
+}
+
+.remove {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.submitBtn {
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+    width: 20%;
+    height: 2em;
+    border: 0;
+    outline: 0;
+    background-color: bisque;
+    margin: 1em 1em;
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+    .submitBtns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        margin: 1em;
+    }
+}
